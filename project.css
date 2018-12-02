@@ -1,3 +1,58 @@
+
 body {
+    font-family: 'Lora', serif;
     background-color: white;
-}
+   }
+   
+   h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+   }
+
+   .loginRegister {
+       padding-top: 10%;
+   }
+   
+   .register {
+       float: right;
+       padding-right: 30%;
+    
+   }
+
+   .login {
+       float: left;
+       padding-left: 30%;
+   }
+
+   p {
+       text-align: center;
+   }
+
+   .registerbutton {
+    padding-left: 10px;
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0px;
+   }
+
+   .loginbutton {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0px;
+   }

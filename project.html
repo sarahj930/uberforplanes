@@ -1,25 +1,77 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
 
-<title>Q&A</title>
-<script
-src="http://www.cs.unc.edu/~kmp/comp426fall18/jquery-3.3.1.js"></script>
-<script src="project.js"></script>
-<link rel="stylesheet" type="text/css" href="project.css">
+    <title>Uber for Planes</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="project.js"></script>
+    <link rel="stylesheet" type="text/css" href="project.css">
 </head>
 
-<body>
-<h1 class="title">Travel</h1>
-<p class="subtitle">Login to start!</p>
-<div class="login" id="login_div">
-  <p>Username:</p> <input type="text" class="input" id="login_user"><br>
-  <p>PID:</p> <input type="text" class="input" id="login_pass"><br>
-  <button class="loginbutton" id="login_btn">Login</button>
-</div>
-<div id="mesg_div"></div>
+<body id="b">
+    <h1>A4 API Example</h1>
+    <div class="loginRegister">
+
+        <div class="login">
+            <h2>Login</h2>
+            <p>Username:</p> <input type="text" class="input" id="login_user"><br>
+            <p>Password:</p> <input type="text" class="input" id="login_pass"><br>
+            <button class="loginbutton" id="login_btn">Login</button>
+        </div>
+        <div id="mesg_div"></div>
+        <div id="register">
+            <h2>Register</h2>
+            <p>Username:</p> <input type="text" id="register_user"><br>
+            <p>Password:</p> <input type="text" id="register_pass"><br>
+            <button id="register_btn">Login</button>
+        </div>
+    </div>
+
+
 </body>
 
 </html>
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Uber for Planes</title>
+    <script src="https://code.jquery.com/jquery-3.3.3.min.js"></script>    
+    <script src="project.js"></script>
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1 class="title">Uber for Planes</h1>
+
+    <p class="subtitle">Login or register to start!</p>
+    <div class="loginRegister">
+        <div class="login" id="login_div">
+            <h2>Login</h2>
+
+            <p>Username:</p> <input type="text" class="input" id="login_user"><br>
+            <p>PID:</p> <input type="text" class="input" id="login_pass"><br>
+            <button class="loginbutton" id="login_btn">Login</button>
+        </div>
+        
+        <div id="mesg_div"></div>
+
+        <div class="register" id="register_div">
+            <h2>Register</h2>
+
+            <p>Username:</p> <input type="text" class="input" id="register_user"><br>
+            <p>PID:</p> <input type="text" class="input" id="register_pass"><br>
+            <button class="registerbutton" id="register_btn">Register</button>
+        </div>
+    </div>
+
+</body>
+
+</html> -->
